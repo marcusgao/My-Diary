@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/Marcus/AndroidStudioProjects/TimeDiary/app/src/main/res/values/array.xml -->
+    <eat-comment/>
+    <string-array name="entries_list_preference">
+		<item>1 Min</item>
+		<item>30 Mins</item>
+		<item>1 Hour</item>
+		<item>2 Hours</item>
+		<item>3 Hours</item>
+		<item>4 Hours</item>
+		<item>8 Hours</item>
+		<item>12 Hours</item>
+		<item>One Day</item>
+	</string-array>
+    <string-array name="entriesvalue_list_preference">
+		<item>1</item>
+		<item>30</item>
+		<item>60</item>
+		<item>120</item>
+		<item>180</item>
+		<item>240</item>
+		<item>480</item>
+		<item>720</item>
+		<item>1440</item>
+	</string-array>
+    <!-- From: file:/Users/Marcus/AndroidStudioProjects/TimeDiary/app/src/main/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="accent">#E91E63</color>
+    <color name="accent_pressed">#C2185B</color>
+    <color name="action_bar">#FF4CAF50</color>
+    <color name="background">#3500ffff</color>
+    <color name="black">#000000</color>
+    <color name="drakgreen">#256666FF</color>
+    <color name="edit_text_black_color">#FF000000</color>
+    <color name="edit_text_hint_grey">#FF757575</color>
+    <color name="edit_text_white_color">#FFFFFFFF</color>
+    <color name="hit_color">#00000000</color>
+    <color name="login_page_app_name_silver">#FFDCD6D7</color>
+    <color name="primary">#3f51b5</color>
+    <color name="primary_dark">#303f9f</color>
+    <color name="red">#FF0000</color>
+    <color name="ripple">#F06292</color>
+    <color name="sign_up_hint_part1">#FFC1BFE4</color>
+    <color name="text_button">#ffff0058</color>
+    <color name="v_21_accent">#FF03A9F4</color>
+    <color name="v_21_status_bar">#FF388E3C</color>
+    <color name="white">#FFFFFF</color>
+    <color name="yellow">#FFFF33</color>
+    <!-- From: file:/Users/Marcus/AndroidStudioProjects/TimeDiary/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="LoginBtn">Login</string>
+    <string name="LogoutBtn">Log Out</string>
+    <string name="Password">Password</string>
+    <string name="SignupBtn">Sign Up</string>
+    <string name="Username">Username</string>
+    <string name="Welcome">Welcome!</string>
+    <string name="about">About</string>
+    <string name="about_text">\
+        Nobody knows what time is like, for we cannot see it, nor can we touch it. Time is abstract, which we can only imagine in our mind. But we do know that time passes very quickly, and we wish to save time because time is precious.\n \n
+        Time is life. When a person dies, his time has ended. So memory is very important for us. There is a good idea. It is to write down our memory into the diary. If it is required for us to do some work today, let us do it today and save the memory into the diary. Remember that time and memory are more valuable than money.\n
+	</string>
+    <string name="app_name">My Diary</string>
+    <string name="cancel">Cancel</string>
+    <string name="confirm">OK</string>
+    <string name="event_type_prompt">Please add the type first in \"Setting\" - \"Type\" then select</string>
+    <string name="eventtype_title">Type:</string>
+    <string name="hour">Hour</string>
+    <string name="main_title">TimeDiary</string>
+    <string name="menu_about">About</string>
+    <string name="menu_config">Setting</string>
+    <string name="menu_diary">Diary</string>
+    <string name="menu_exit">LogOut</string>
+    <string name="menu_thoughts">Thoughts</string>
+    <string name="menu_type">Type</string>
+    <string name="minute">Min</string>
+    <string name="no_diary">There is no record now. Please add your diary.</string>
+    <string name="notice_message">Sync the address error!Please set again!</string>
+    <string name="notice_title">Sync the address error!</string>
+    <string name="rating_title">Rating:</string>
+    <string name="timecount_title">Time:</string>
+    <string name="timeitem_title">Content:</string>
+    <string name="today_account">Event of Today</string>
+    <string name="type_del">Delete</string>
+    <string name="type_save">Save</string>
+    <string name="view_diary">View Diaries</string>
+    <!-- From: file:/Users/Marcus/AndroidStudioProjects/TimeDiary/app/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="TabStyle">
+        <item name="android:colorForeground">#FF6600</item>
+    </style>
+    <style name="Theme" parent="android:Theme"/>
+    <style name="diaryRatingBar" parent="@android:style/Widget.RatingBar">
+		<item name="android:progressDrawable">@drawable/diary_ratingbar_full</item>
+		<item name="android:minHeight">48dip</item>
+  		<item name="android:maxHeight">48dip</item>
+	</style>
+</resources>

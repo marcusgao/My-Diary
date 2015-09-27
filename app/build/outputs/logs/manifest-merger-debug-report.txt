@@ -1,0 +1,150 @@
+-- Merging decision tree log ---
+manifest
+ADDED from AndroidManifest.xml:2:1
+	package
+		ADDED from AndroidManifest.xml:3:7
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:versionName
+		ADDED from AndroidManifest.xml:5:7
+	android:versionCode
+		ADDED from AndroidManifest.xml:4:7
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	xmlns:android
+		ADDED from AndroidManifest.xml:2:11
+application
+ADDED from AndroidManifest.xml:6:5
+	android:label
+		ADDED from AndroidManifest.xml:8:9
+	android:icon
+		ADDED from AndroidManifest.xml:6:18
+	android:name
+		ADDED from AndroidManifest.xml:7:9
+activity#com.raygao.MainActivity
+ADDED from AndroidManifest.xml:10:9
+	android:name
+		ADDED from AndroidManifest.xml:10:19
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:11:13
+action#android.intent.action.MAIN
+ADDED from AndroidManifest.xml:12:17
+	android:name
+		ADDED from AndroidManifest.xml:12:25
+category#android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:13:17
+	android:name
+		ADDED from AndroidManifest.xml:13:27
+activity#com.raygao.Main
+ADDED from AndroidManifest.xml:17:9
+	android:label
+		ADDED from AndroidManifest.xml:18:19
+	android:name
+		ADDED from AndroidManifest.xml:17:19
+provider#com.raygao.provider.DiaryProvider
+ADDED from AndroidManifest.xml:19:9
+	android:authorities
+		ADDED from AndroidManifest.xml:19:68
+	android:name
+		ADDED from AndroidManifest.xml:19:19
+activity#com.raygao.activity.DiaryList
+ADDED from AndroidManifest.xml:20:9
+	android:name
+		ADDED from AndroidManifest.xml:20:19
+activity#com.raygao.activity.DiaryNew
+ADDED from AndroidManifest.xml:21:9
+	android:name
+		ADDED from AndroidManifest.xml:21:19
+activity#com.raygao.activity.CalendarActivity
+ADDED from AndroidManifest.xml:22:9
+	android:name
+		ADDED from AndroidManifest.xml:22:19
+activity#com.raygao.activity.TypeActivity
+ADDED from AndroidManifest.xml:23:9
+	android:name
+		ADDED from AndroidManifest.xml:23:19
+activity#com.raygao.activity.ThoughtsActivity
+ADDED from AndroidManifest.xml:24:9
+	android:name
+		ADDED from AndroidManifest.xml:24:19
+activity#com.raygao.activity.About
+ADDED from AndroidManifest.xml:25:9
+	android:name
+		ADDED from AndroidManifest.xml:25:19
+activity#com.raygao.activity.Settings
+ADDED from AndroidManifest.xml:26:9
+	android:name
+		ADDED from AndroidManifest.xml:26:19
+activity#com.raygao.activity.LoginSignupActivity
+ADDED from AndroidManifest.xml:27:9
+	android:name
+		ADDED from AndroidManifest.xml:27:19
+service#com.raygao.sync.SyncService
+ADDED from AndroidManifest.xml:30:9
+	android:name
+		ADDED from AndroidManifest.xml:30:18
+intent-filter#android.intent.category.DEFAULT+com.raygao.timediary.sync.SYNC_SERVICE
+ADDED from AndroidManifest.xml:31:4
+action#com.raygao.timediary.sync.SYNC_SERVICE
+ADDED from AndroidManifest.xml:32:5
+	android:name
+		ADDED from AndroidManifest.xml:32:13
+category#android.intent.category.DEFAULT
+ADDED from AndroidManifest.xml:33:5
+	android:name
+		ADDED from AndroidManifest.xml:33:15
+receiver#com.raygao.sync.IntentReceiver
+ADDED from AndroidManifest.xml:37:3
+	android:name
+		ADDED from AndroidManifest.xml:37:13
+intent-filter#android.intent.action.BOOT_COMPLETED+android.intent.category.HOME
+ADDED from AndroidManifest.xml:38:4
+action#android.intent.action.BOOT_COMPLETED
+ADDED from AndroidManifest.xml:39:5
+	android:name
+		ADDED from AndroidManifest.xml:39:13
+category#android.intent.category.HOME
+ADDED from AndroidManifest.xml:40:5
+	android:name
+		ADDED from AndroidManifest.xml:40:15
+uses-permission#android.permission.INTERNET
+ADDED from AndroidManifest.xml:45:5
+	android:name
+		ADDED from AndroidManifest.xml:45:22
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from AndroidManifest.xml:46:2
+	android:name
+		ADDED from AndroidManifest.xml:46:19
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from AndroidManifest.xml:47:5
+	android:name
+		ADDED from AndroidManifest.xml:47:22
+uses-permission#android.permission.WAKE_LOCK
+ADDED from AndroidManifest.xml:48:5
+	android:name
+		ADDED from AndroidManifest.xml:48:22
+uses-permission#android.permission.VIBRATE
+ADDED from AndroidManifest.xml:49:5
+	android:name
+		ADDED from AndroidManifest.xml:49:22
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from AndroidManifest.xml:50:5
+	android:name
+		ADDED from AndroidManifest.xml:50:22
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from AndroidManifest.xml:51:5
+	android:name
+		ADDED from AndroidManifest.xml:51:22
+uses-permission#android.permission.USE_CREDENTIALS
+ADDED from AndroidManifest.xml:53:5
+	android:name
+		ADDED from AndroidManifest.xml:53:22
+uses-sdk
+ADDED from AndroidManifest.xml:55:5
+	android:targetSdkVersion
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:minSdkVersion
+		ADDED from AndroidManifest.xml:55:15
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0

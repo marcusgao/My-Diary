@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:tools="http://schemas.android.com/tools" tools:locale="es">
+    <string name="app_name">My Diary</string>
+    <string name="today_account">Event of Today</string>
+    <string name="view_diary">View Diaries</string>
+    <string name="menu_config">Setting</string>
+    <string name="menu_type">Type</string>
+    <string name="menu_about">About</string>
+    <string name="type_save">Save</string>
+    <string name="type_del">Delete</string>
+    <string name="cancel">Cancel</string>
+    <string name="confirm">OK</string>
+
+    <string name="about">About</string>
+    <string name="main_title">TimeDiary</string>
+	<string name="about_text">\
+        Nobody knows what time is like, for we cannot see it, nor can we touch it. Time is abstract, which we can only imagine in our mind. But we do know that time passes very quickly, and we wish to save time because time is precious.\n \n
+        Time is life. When a person dies, his time has ended. So memory is very important for us. There is a good idea. It is to write down our memory into the diary. If it is required for us to do some work today, let us do it today and save the memory into the diary. Remember that time and memory are more valuable than money.\n
+	</string>
+
+    <string name="eventtype_title">Type:</string>
+    <string name="event_type_prompt">Please add the type first in \"Setting\" - \"Type\" then select</string>
+    <string name="timeitem_title">Content:</string>
+    <string name="timecount_title">Time:</string>
+    <string name="hour">Hour</string>
+    <string name="minute">Min</string>
+    <string name="rating_title">Rating:</string>
+
+    <string name="no_diary">There is no record now. Please add your diary.</string>
+
+    <string name="menu_diary">Diary</string>
+    <string name="menu_thoughts">Thoughts</string>
+    <string name="menu_exit">LogOut</string>
+
+    <string name="notice_title">Sync the address error!</string>
+    <string name="notice_message">Sync the address error!Please set again!</string>
+
+
+
+    <string name="Username">Username</string>
+    <string name="Password">Password</string>
+    <string name="LoginBtn">Login</string>
+    <string name="SignupBtn">Sign Up</string>
+    <string name="LogoutBtn">Log Out</string>
+    <string name="Welcome">Welcome!</string>
+</resources>
+
+

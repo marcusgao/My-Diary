@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+  
+  	 <PreferenceCategory android:title="Sync Setting">
+        <CheckBoxPreference
+            android:key="sync_config_checkbox"
+            android:title="Sync or not?"
+            android:summaryOn="Sync: On!"
+            android:summaryOff="Sync: Off!"
+            android:defaultValue="false"
+            
+        />
+        
+       <EditTextPreference
+        android:key="sync_url_edit"
+        android:title="Sync http address"
+        android:summary="Example: http://www.raygao.com/service/sync"
+        android:dialogTitle="Sync http address"
+        android:defaultValue="http://"
+        android:dependency="sync_config_checkbox"
+    	/>
+    	
+    <ListPreference
+        android:key="sync_interval_list"
+        android:title="Sync Interval Time"
+        android:summary="Set the interval time of Sync"
+        android:dialogTitle="Please select the interval time of Sync"
+        android:entries="@array/entries_list_preference"
+        android:entryValues="@array/entriesvalue_list_preference"
+        android:defaultValue="60"
+        android:dependency="sync_config_checkbox"
+    />
+    
+    </PreferenceCategory>
+    
+    
+</PreferenceScreen>

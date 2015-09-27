@@ -1,0 +1,24 @@
+apply plugin: 'com.android.application'
+android {
+    compileSdkVersion 10
+    buildToolsVersion "21.1.2"
+
+    defaultConfig {
+        applicationId "com.raygao"
+        minSdkVersion 3
+        targetSdkVersion 3
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}
+
+dependencies {
+    compile 'com.parse.bolts:bolts-android:1.+'
+    compile fileTree(dir: 'libs', include: 'Parse-*.jar')
+    compile files('libs/ParseCrashReporting-1.9.0.jar')
+}
